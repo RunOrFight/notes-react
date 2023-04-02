@@ -1,0 +1,35 @@
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+
+    width: 123px;
+    height: 40px;
+
+    background: $secondary;
+    color: $white;
+
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: $white;
+
+    &:hover {
+        opacity: 90%;
+    }
+
+    &:active {
+        opacity: 75%;
+    }
+
+    &.outline {
+        border: 1px solid $secondary;
+        background: $white;
+        color: $secondary;
+
+        &:hover {
+            background: $secondary;
+            color: $white;
+        }
+    }
+}
